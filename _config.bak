@@ -7,7 +7,7 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "Japan"
+locale                   : "ja"
 site_theme               : "default" # Currently available options are "default", "air"
 title                    : "M. Sakamoto"
 title_separator          : "-"
@@ -16,11 +16,13 @@ description              : &description "M. Sakamoto's academic portfolio"   # U
 url                      : "URL" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "masa-moto/masa-moto.gitub.io"
+repository               : "masa-moto/masa-moto.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
+
+# --- Profile Settings ---
 author:
   # Biographic information
   avatar           : "profile.png"
@@ -30,7 +32,8 @@ author:
   location         : "Hokkaido/Japan"
   employer         : "Hokkaido university"
   uri              : ""
-  email            : "" 
+  email            : "sample@example.com"  # 後で差し替えてください
+  # affiliation: "Dept. of Mathematics, Faculty of Science, Hokkaido Univ. (Graduate Student)/ 北海道大学大学院理学院数学専攻"  # ← 必要に応じて学科/大学名に変更
 
   # Academic websites
   academia         : # URL
@@ -362,12 +365,7 @@ compress_html:
 
 
 
-# --- Profile Settings ---
-author:
-  name: "M. Sakamoto"
-  affiliation: "Dept. of Mathematics, Daculty of Science, Hokkaido Univ. (Graduate Student)/ 北海道大学大学院理学院数学専攻"  # ← 必要に応じて学科/大学名に変更
-  email: "your_email@example.com"  # 後で差し替えてください
-  avatar: "assets/images/profile.png"  # 画像を置く場合
+
 
 # --- Appearance Customization (your custom palette) ---
 theme_color:

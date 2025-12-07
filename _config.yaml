@@ -1,0 +1,182 @@
+# ===============================================
+# Basic Site Settings
+# ===============================================
+
+locale: "ja"
+site_theme: "default"
+title: "M. Sakamoto"
+title_separator: "-"
+name: &name "M. Sakamoto"
+description: &description "M. Sakamoto's academic portfolio"
+url: "https://masa-moto.github.io"
+baseurl: ""
+repository: "masa-moto/masa-moto.github.io"
+
+# ===============================================
+# Author Settings
+# ===============================================
+
+author:
+  avatar: "assets/images/profile.png"
+  name: "M. Sakamoto"
+  pronouns:
+  bio: "Japanese graduate student."
+  location: "Hokkaido, Japan"
+  employer: "Hokkaido University"
+  email:
+
+  # Academic IDs (記入予定があれば追加)
+  arxiv:
+  googlescholar:
+  orcid:
+  researchgate:
+
+  # Development
+  github: "masa-moto"
+
+  # Social Media
+  bluesky: "https://bsky.app"   # ← アカウントURLに後で更新する
+  linkedin:
+  twitter:
+
+# ===============================================
+# Publications
+# ===============================================
+
+publication_category:
+  books:
+    title: 'Books'
+  manuscripts:
+    title: 'Journal Articles'
+  conferences:
+    title: 'Conference Papers'
+
+# ===============================================
+# Site Options
+# ===============================================
+
+teaser:
+breadcrumbs: false
+words_per_minute: 160
+future: true
+read_more: "disabled"
+talkmap_link: false
+
+comments:
+  provider:
+
+atom_feed:
+  hide: false
+
+# ===============================================
+# Social Sharing / Open Graph
+# ===============================================
+
+og_image:
+og_description:
+
+social:
+  type: Person
+
+# ===============================================
+# Analytics
+# ===============================================
+
+analytics:
+  provider: "false"
+
+# ===============================================
+# Markdown / Conversions
+# ===============================================
+
+markdown: kramdown
+highlighter: rouge
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+
+# ===============================================
+# Collections
+# ===============================================
+
+collections:
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
+
+# ===============================================
+# Defaults
+# ===============================================
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# ===============================================
+# Theme Colors (Custom Palette)
+# ===============================================
+
+theme_color:
+  background: "#FAFAF5"
+  text: "#111111"
+  accent: "#23651C"
+  sidebar: "#F7F8F3"
+
+# ===============================================
+# Plugins
+# ===============================================
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+whitelist:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+# ===============================================
+# HTML Compression
+# ===============================================
+
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
