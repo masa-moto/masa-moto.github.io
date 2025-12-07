@@ -7,7 +7,7 @@
 html[data-theme="light"],
 :root {
   --bg-color: #fdfdfd;                   /* 背景色 */
-  --accent-color: #aa0000;         /* 既クリックリンク */
+  --accent-color: #55939f;         /* 既クリックリンク */
   background-color: var(--bg-color);
 }
 
@@ -22,8 +22,9 @@ html[data-theme="light"] body {
 
 /* ▼ Dark mode */
 html[data-theme="dark"] {
-  --bg-color: #0f0f0f;                   /* 背景色 */
+  --bg-color: #1f1f1f;                   /* 背景色 */
   --link-visited-color: #55939f;         /* 既クリックリンク */
+  --accent-color: #55939f;         /* 既クリックリンク */
   background-color: var(--bg-color);
 }
 
