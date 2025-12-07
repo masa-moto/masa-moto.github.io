@@ -1,53 +1,36 @@
-/* ===== Custom Theme for S. Sakamoto ===== */
+/* ===============================
+   Custom Override (Light & Dark)
+   背景色 & visited link
+=================================== */
 
-/* Global Colors */
-body {
-  background-color: #f7f7f3 !important;
-  color: #111111 !important;
-  height: 100%;
-}
-.main-content{
-  flex: 1 0 auto;
-}
-
-/* Link Colors */
-a, a:visited {
-  color: #55939F;
-}
-a:hover, a:focus {
-  color: #184A14;
+/* ▼ Light mode */
+html[data-theme="light"],
+:root {
+  --bg-color: #fdfdfd;                   /* 背景色 */
+  --link-visited-color: #55939f;         /* 既クリックリンク */
+  background-color: var(--bg-color);
 }
 
-/* Sidebar */
-.sidebar {
-  background-color: #FFFFFF !important;
-  border-right: 1px solid #E0E2DA;
+html[data-theme="light"] body {
+  background-color: var(--bg-color);
 }
 
-/* Sidebar Link Style */
-.sidebar a {
-  color: #23651C;
-}
-.sidebar a:hover {
-  color: #184A14;
-  text-decoration: underline;
+html[data-theme="light"] a:visited {
+  color: var(--link-visited-color);
 }
 
-/* Fix Sidebar Position (Sticky) */
-.sidebar {
-  position: fixed !important;
-  top: 0;
-  left: 0;
-  height: 100%;
-  overflow-y: auto;
+
+/* ▼ Dark mode */
+html[data-theme="dark"] {
+  --bg-color: #0f0f0f;                   /* 背景色 */
+  --link-visited-color: #55939f;         /* 既クリックリンク */
+  background-color: var(--bg-color);
 }
 
-/* Content Margin so it doesn't Hide Behind Sidebar */
-.page-content {
-  margin-left: 260px; /* default sidebar width */
+html[data-theme="dark"] body {
+  background-color: var(--bg-color);
 }
 
-/* Optional: Slightly curved buttons/labels */
-.button, .btn, .label {
-  border-radius: 4px;
+html[data-theme="dark"] a:visited {
+  color: var(--link-visited-color);
 }
