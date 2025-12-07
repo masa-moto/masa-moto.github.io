@@ -12,6 +12,7 @@ redirect_from:
 Education
 ======
 * Ph.D in mathematics(Now) Dept. of mathematics, faculty of science, Hokkaido University
+* 人間知・脳・AI研究教育センター(CHAIN) 第四期生
 * M.S. Hokkaido University, Japan 2025
 * B.S. Hokkaido University, Japan 2023
 
