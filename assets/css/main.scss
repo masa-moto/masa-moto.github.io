@@ -14,13 +14,12 @@
     "themes",
     "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
     "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
-
     "include/mixins",
     "vendor/susy/susy",
-
+    
     "layout/reset",
     "layout/base",
-
+    
     "include/utilities",
     "layout/tables",
     "layout/buttons",
@@ -29,14 +28,16 @@
     "layout/navigation",
     "layout/footer",
     "syntax",
-
+    
     "layout/forms",
-
+    
     "layout/page",
     "layout/archive",
     "layout/sidebar",
     "layout/json_cv",
-
+    
+    "_custom",
+    
     "vendor/font-awesome/fontawesome",
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
