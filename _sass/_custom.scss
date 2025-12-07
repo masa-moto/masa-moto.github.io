@@ -21,7 +21,9 @@ html[data-theme="light"] a:visited {
 html[data-theme="light"] body {
   background-color: var(--bg-color);
 }
-
+html[data-theme="light"] a:visited {
+  color: var(--link-visited-color) !important;
+}
 
 
 /* ▼ Dark mode */
