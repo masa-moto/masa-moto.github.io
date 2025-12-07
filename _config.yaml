@@ -1,185 +1,185 @@
-# # ===============================================
-# # Basic Site Settings
-# # ===============================================
+# ===============================================
+# Basic Site Settings
+# ===============================================
 
-# locale: "ja"
-# site_theme: "default"
-# title: "M. Sakamoto"
-# title_separator: "-"
-# name: &name "M. Sakamoto"
-# description: &description "M. Sakamoto's academic portfolio"
-# url: "https://masa-moto.github.io"
-# baseurl: ""
-# repository: "masa-moto/masa-moto.github.io"
+locale: "ja"
+site_theme: "default"
+title: "M. Sakamoto"
+title_separator: "-"
+name: &name "M. Sakamoto"
+description: &description "M. Sakamoto's academic portfolio"
+url: "https://masa-moto.github.io"
+baseurl: ""
+repository: "masa-moto/masa-moto.github.io"
 
-# # ===============================================
-# # Author Settings
-# # ===============================================
+# ===============================================
+# Author Settings
+# ===============================================
 
-# author:
-#   avatar: "assets/images/profile.png"
-#   name: "M. Sakamoto"
-#   pronouns:
-#   bio: "Japanese graduate student."
-#   location: "Hokkaido, Japan"
-#   employer: "Hokkaido University"
-#   email:
+author:
+  avatar: "assets/images/profile.png"
+  name: "M. Sakamoto"
+  pronouns:
+  bio: "Japanese graduate student."
+  location: "Hokkaido, Japan"
+  employer: "Hokkaido University"
+  email:
 
-#   # Academic IDs (記入予定があれば追加)
-#   arxiv:
-#   googlescholar:
-#   orcid:
-#   researchgate:
+  # Academic IDs (記入予定があれば追加)
+  arxiv:
+  googlescholar:
+  orcid:
+  researchgate:
 
-#   # Development
-#   github: "masa-moto"
+  # Development
+  github: "masa-moto"
 
-#   # Social Media
-#   bluesky: "https://bsky.app"   # ← アカウントURLに後で更新する
-#   linkedin:
-#   twitter:
+  # Social Media
+  bluesky: "https://bsky.app"   # ← アカウントURLに後で更新する
+  linkedin:
+  twitter:
 
-# # ===============================================
-# # Publications
-# # ===============================================
+# ===============================================
+# Publications
+# ===============================================
 
-# publication_category:
-#   books:
-#     title: 'Books'
-#   manuscripts:
-#     title: 'Journal Articles'
-#   conferences:
-#     title: 'Conference Papers'
+publication_category:
+  books:
+    title: 'Books'
+  manuscripts:
+    title: 'Journal Articles'
+  conferences:
+    title: 'Conference Papers'
 
-# # ===============================================
-# # Site Options
-# # ===============================================
+# ===============================================
+# Site Options
+# ===============================================
 
-# teaser:
-# breadcrumbs: false
-# words_per_minute: 160
-# future: true
-# read_more: "disabled"
-# talkmap_link: false
+teaser:
+breadcrumbs: false
+words_per_minute: 160
+future: true
+read_more: "disabled"
+talkmap_link: false
 
-# comments:
-#   provider:
+comments:
+  provider:
 
-# atom_feed:
-#   hide: false
+atom_feed:
+  hide: false
 
-# # ===============================================
-# # Social Sharing / Open Graph
-# # ===============================================
+# ===============================================
+# Social Sharing / Open Graph
+# ===============================================
 
-# og_image:
-# og_description:
+og_image:
+og_description:
 
-# social:
-#   type: Person
+social:
+  type: Person
 
-# # ===============================================
-# # Analytics
-# # ===============================================
+# ===============================================
+# Analytics
+# ===============================================
 
-# analytics:
-#   provider: "false"
+analytics:
+  provider: "false"
 
-# # ===============================================
-# # Markdown / Conversions
-# # ===============================================
+# ===============================================
+# Markdown / Conversions
+# ===============================================
 
-# markdown: kramdown
-# highlighter: rouge
-# markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+markdown: kramdown
+highlighter: rouge
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-# kramdown:
-#   input: GFM
-#   hard_wrap: false
-#   auto_ids: true
-#   footnote_nr: 1
-#   entity_output: as_char
-#   toc_levels: 1..6
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
 
-# # ===============================================
-# # Collections
-# # ===============================================
+# ===============================================
+# Collections
+# ===============================================
 
-# collections:
-#   teaching:
-#     output: true
-#     permalink: /:collection/:path/
-#   publications:
-#     output: true
-#     permalink: /:collection/:path/
-#   portfolio:
-#     output: true
-#     permalink: /:collection/:path/
-#   talks:
-#     output: true
-#     permalink: /:collection/:path/
+collections:
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
 
-# # ===============================================
-# # Defaults
-# # ===============================================
+# ===============================================
+# Defaults
+# ===============================================
 
-# defaults:
-#   - scope:
-#       path: ""
-#       type: posts
-#     values:
-#       layout: single
-#       author_profile: true
-#       read_time: true
-#       comments: true
-#       share: true
-#       related: true
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
-#   - scope:
-#       path: ""
-#       type: pages
-#     values:
-#       layout: single
-#       author_profile: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
-# # ===============================================
-# # Theme Colors (Custom Palette)
-# # ===============================================
+# ===============================================
+# Theme Colors (Custom Palette)
+# ===============================================
 
-# theme_color:
-#   background: "#FAFAF5"
-#   text: "#111111"
-#   accent: "#23651C"
-#   sidebar: "#F7F8F3"
+theme_color:
+  background: "#FAFAF5"
+  text: "#111111"
+  accent: "#23651C"
+  sidebar: "#F7F8F3"
 
-# # ===============================================
-# # Plugins
-# # ===============================================
+# ===============================================
+# Plugins
+# ===============================================
 
-# plugins:
-#   - jekyll-feed
-#   - jekyll-gist
-#   - jekyll-paginate
-#   - jekyll-sitemap
-#   - jekyll-redirect-from
-#   - jemoji
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
 
-# whitelist:
-#   - jekyll-feed
-#   - jekyll-gist
-#   - jekyll-paginate
-#   - jekyll-sitemap
-#   - jekyll-redirect-from
-#   - jemoji
+whitelist:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
 
-# # ===============================================
-# # HTML Compression
-# # ===============================================
+# ===============================================
+# HTML Compression
+# ===============================================
 
-# compress_html:
-#   clippings: all
-#   ignore:
-#     envs: development
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
 
 
 
@@ -199,7 +199,7 @@ title                    : "M. Sakamoto"
 title_separator          : "-"
 name                     : &name "M. Sakamoto"
 description              : &description "M. Sakamoto's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : "URL" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : "https://masa-moto.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "masa-moto/masa-moto.github.io"
@@ -213,12 +213,12 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "M. Sakamoto"
-  pronouns         : # example: "she/her"  
+  # pronouns         : # example: "she/her"  
   bio              : "japanese graduate student."
   location         : "Hokkaido/Japan"
   employer         : "Hokkaido university"
   uri              : ""
-  email            : "sample@example.com"  # 後で差し替えてください
+  email            : "sample [at] example.com"  # 後で差し替えてください
   # affiliation: "Dept. of Mathematics, Faculty of Science, Hokkaido Univ. (Graduate Student)/ 北海道大学大学院理学院数学専攻"  # ← 必要に応じて学科/大学名に変更
 
   # Academic websites
@@ -246,7 +246,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  # bluesky          : "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -297,47 +297,27 @@ comments:
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
-  path                   : # blank (default) uses feed.xml
-
 
 # SEO Related
-google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
+# google_site_verification :
+# bing_site_verification   :
+# alexa_site_verification  :
+# yandex_site_verification :
 
 
 # Social Sharing
-twitter:
-  username               : &twitter
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+# twitter:
+  # username               : &twitter
+# facebook:
+#   username               :
+#   app_id                 :
+#   publisher              :
+# og_image                 :  # Social media default site image
+# og_description           :  # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
+  type                   : Person # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
