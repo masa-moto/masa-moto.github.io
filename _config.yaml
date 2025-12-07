@@ -35,7 +35,7 @@ author:
   github: "masa-moto"
 
   # Social Media
-  bluesky: "https://bsky.app"   # ← アカウントURLに後で更新する
+  bluesky:   # ← アカウントURLに後で更新する
   linkedin:
   twitter:
 
