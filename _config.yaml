@@ -271,14 +271,14 @@ author:
   youtube          : # Username
   zhihu            : # Username
 
-# Publication Category - The following the list of publication categories and their headings
-publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+# # Publication Category - The following the list of publication categories and their headings
+# publication_category:
+#   books:
+#     title: 'Books'
+#   manuscripts:
+#     title: 'Journal Articles'    
+#   conferences:
+#     title: 'Conference Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -533,9 +533,9 @@ compress_html:
 
 
 
-# --- Appearance Customization (your custom palette) ---
-theme_color:
-  background: "#FAFAF5"
-  text: "#111111"
-  accent: "#23651C"
-  sidebar: "#F7F8F3"
+# # --- Appearance Customization (your custom palette) ---
+# theme_color:
+#   background: "#FAFAF5"
+#   text: "#111111"
+#   accent: "#23651C"
+#   sidebar: "#F7F8F3"
