@@ -30,7 +30,7 @@ author:
   googlescholar:
   orcid:
   researchgate:
-  researchmap: "https://researchmap.jp/m_skmt"
+ 
 
 
   # Development
@@ -42,7 +42,7 @@ author:
   twitter:
 
   links:
-    - label: "researchmap"
+      label: "researchmap"
       icon: "fas fa-university"
       url: https://researchmap.jp/m_skmt
 
