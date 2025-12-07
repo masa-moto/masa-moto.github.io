@@ -15,6 +15,7 @@ html[data-theme="light"],
 
 html[data-theme="light"] body {
   background-color: var(--bg-color);
+  height: 100%;
 }
 
 
@@ -28,8 +29,4 @@ html[data-theme="dark"] {
 
 html[data-theme="dark"] body {
   background-color: var(--bg-color);
-}
-
-html[data-theme="dark"] a:visited {
-  color: var(--link-visited-color);
 }
