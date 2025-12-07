@@ -18,7 +18,7 @@ repository: "masa-moto/masa-moto.github.io"
 
 author:
   avatar: "assets/images/profile.png"
-  name: "Masahiro Sakamoto"
+  name: "01Masahiro Sakamoto"
   pronouns:
   bio: "Japanese graduate student of mathematics."
   location: "Hokkaido, Japan"
@@ -30,6 +30,8 @@ author:
   googlescholar:
   orcid:
   researchgate:
+  researchmap: "https://researchmap.jp/m_skmt"
+
 
   # Development
   github: "masa-moto"
@@ -38,7 +40,6 @@ author:
   bluesky:   # ← アカウントURLに後で更新する
   linkedin:
   twitter:
-  researchmap: https://researchmap.jp/m_skmt
 
 # ===============================================
 # Publications
