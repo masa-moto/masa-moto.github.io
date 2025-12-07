@@ -11,6 +11,13 @@ html[data-theme="light"],
   background-color: var(--bg-color);
 }
 
+html[data-theme="light"] a:visited {
+  color: #00ff00 !important;
+  fill: #00ff00 !important;
+  stroke: #00ff00 !important;
+}
+
+
 html[data-theme="light"] body {
   background-color: var(--bg-color);
 }

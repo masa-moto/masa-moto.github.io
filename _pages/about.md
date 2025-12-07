@@ -10,3 +10,5 @@ redirect_from:
 **Welcome!**
 
 this is Masahiro Sakamoto's home page.
+
+[Google](https://www.google.com)
