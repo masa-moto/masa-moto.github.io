@@ -44,9 +44,9 @@ Posters
 =====
   <ul>{% for post in site.posters reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul> -->
+  {% endfor %}</ul>
 
   
 Service and leadership
 ======
-* [第22回 数学総合若手研究集会 世話人](https://www.math.sci.hokudai.ac.jp/~wakate/mcyr/index2.html)
+* [第22回 数学総合若手研究集会 世話人](https://www.math.sci.hokudai.ac.jp/~wakate/mcyr/2026/ja/index.html)
