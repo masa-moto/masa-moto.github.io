@@ -21,18 +21,18 @@ Education
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming
+  * complex network analysis (multifractal, motif-decomposition, graph zeta)
+* Language
+  * Japanese (native)
+  * English (TOEIC L&R 885)
 
-Publications
+
+<!-- Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 <!-- Talks
 ======
@@ -49,4 +49,4 @@ Posters
   
 Service and leadership
 ======
-* 数学総合若手研究集会世話人
+* [第22回 数学総合若手研究集会 世話人](https://www.math.sci.hokudai.ac.jp/~wakate/mcyr/index2.html)
