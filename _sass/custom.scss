@@ -1,0 +1,49 @@
+/* ===== Custom Theme for S. Sakamoto ===== */
+
+/* Global Colors */
+body {
+  background-color: #FAFAF5 !important;
+  color: #111111 !important;
+}
+
+/* Link Colors */
+a, a:visited {
+  color: #23651C;
+}
+a:hover, a:focus {
+  color: #184A14;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #F7F8F3 !important;
+  border-right: 1px solid #E0E2DA;
+}
+
+/* Sidebar Link Style */
+.sidebar a {
+  color: #23651C;
+}
+.sidebar a:hover {
+  color: #184A14;
+  text-decoration: underline;
+}
+
+/* Fix Sidebar Position (Sticky) */
+.sidebar {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow-y: auto;
+}
+
+/* Content Margin so it doesn't Hide Behind Sidebar */
+.page-content {
+  margin-left: 260px; /* default sidebar width */
+}
+
+/* Optional: Slightly curved buttons/labels */
+.button, .btn, .label {
+  border-radius: 4px;
+}
