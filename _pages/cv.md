@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * Ph.D in mathematics(Now) Dept. of mathematics, faculty of science, Hokkaido University
-* 人間知・脳・AI研究教育センター(CHAIN) 第四期生
+* 人間知・脳・AI研究教育センター(CHAIN) 第4期生
 * M.S. Hokkaido University, Japan 2025
 * B.S. Hokkaido University, Japan 2023
 
@@ -51,3 +51,6 @@ Posters
 Service and leadership
 ======
 * [第22回 数学総合若手研究集会 世話人](https://www.math.sci.hokudai.ac.jp/~wakate/mcyr/2026/ja/index.html)
+* ティーチングアシスタント(TA)
+  * 北海道大学全学教育部開講科目 「情報学I」「情報学II」
+  * 同大学理学部開講科目 「コンピュータ」
