@@ -50,7 +50,7 @@ Posters
   
 Service and leadership
 ======
-* [第22回 数学総合若手研究集会 世話人](https://www.math.sci.hokudai.ac.jp/~wakate/mcyr/2026/ja/index.html)
+* [第22回 数学総合若手研究集会](https://www.math.sci.hokudai.ac.jp/~wakate/mcyr/2026/ja/index.html) 世話人
 * ティーチングアシスタント(TA)
-  * 北海道大学全学教育部開講科目 「情報学I」「情報学II」
+  * 北海道大学全学教育部開講科目 「情報学I」「情報学II」「人間と文化」
   * 同大学理学部開講科目 「コンピュータ」
