@@ -1,11 +1,11 @@
 --- 
-title : "Matplotlibで日本語フォントを使う"
+title: 'Matplotlibで日本語フォントを使う'
 date: 2025-12-15
 permalink: /posts/2025/12/blog-post-6/
 tags:
-    - misc
-    - python
+  - misc, - python
 ---
+
 ## BLUF
 python3.12でjapanize_matplotlibを使えないのでmatplotlib_fontjaに乗り換えた. 
 
@@ -18,7 +18,7 @@ ModuleNotFoundError: No module named 'distutils'
 ```
 なるエラーが.
 
-調べてみると, python3.12以降ではjapanize_matplotlibを使おうとすると上記エラーが出るらしい.また, distutilsなるパッケージのインストールを試みるも, pipでは入れられない様で.
+調べてみると, python3.12以降ではjapanize_matplotlibを使おうとすると上記エラーが出るらしい.また, distutilsなるパッケージのインストールを試みるも, pipでは入れられない様で......
 ## 解決
 さらに調べてみるとどうやらpython3.12以降では matplotlib_fontja というライブラリがjapanize_matplotlibの代替になっているらしい.
 
