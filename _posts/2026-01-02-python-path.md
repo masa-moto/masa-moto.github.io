@@ -1,5 +1,12 @@
-#tips #pathlib #python 
-
+--- 
+title: 'Pythonで遠くのディレクトリのモジュールを参照する'
+date: 2026-01-02
+permalink: /posts/2025/12/blog-post-6/
+tags:
+  - misc
+  - python
+  - pathlib
+---
 # BLUF
 `pathlib.Path`を使って親ディレクトリのパス情報を取得し、`sys.path.append`を使ってimport パスに追加する。
 
@@ -68,10 +75,20 @@ sys.path.append(str(target_dir))
 # ドキュメントなど。
 https://docs.python.org/3/library/pathlib.html
 https://docs.python.org/3/tutorial/modules.html#the-module-search-path
+
 ## ところで。（１）
+
 `__file__`が使えない場合もある。
 1. 対話実行環境REPLでは使えない
 2. Jupyter notebookとかのコードセルのような環境では使えない
+
+遠くのディレクトリを参照してインポートできないこともある。
+1. そもそもファイルからディレクトリを辿れない場合。
+2. 同名モジュールが衝突していて意図したものとは違うものがインポートされている場合。
+3. パッケージとして解釈されない場合。
+などなど。
+
+
 ## ところで。（２）
 
 ```
