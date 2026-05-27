@@ -20,7 +20,7 @@ html[data-theme="light"] body {
 
 
 
-/* ▼ Dark mode */
+// /* ▼ Dark mode */
 html[data-theme="dark"] {
   --bg-color: #1f1f1f;                   /* 背景色 */
   --link-visited-color: #55939f;         /* 既クリックリンク */
@@ -30,4 +30,202 @@ html[data-theme="dark"] {
 
 html[data-theme="dark"] body {
   background-color: var(--bg-color);
+}
+
+:root {
+  --global-bg-color: #f8f8f6;
+  --global-text-color: #222831;
+  --global-muted-text-color: #6b7280;
+  --global-link-color: #256d85;
+  --global-border-color: #d8dee4;
+}
+
+html[data-theme="dark"] {
+  --global-bg-color: #111318;
+  --global-text-color: #d8dee9;
+  --global-muted-text-color: #9aa4b2;
+  --global-link-color: #8fbcbb;
+  --global-border-color: #2a2f3a;
+}
+
+
+/* fenced code block: dark mode */
+html[data-theme="dark"] {
+  .highlighter-rouge,
+  .highlight {
+    background: #1a1f2f;
+  }
+
+  .highlight {
+    color: #d8dee9;
+    border: 1px solid #2a2f3a;
+    border-radius: 0.55rem;
+  }
+
+  .highlight pre,
+  pre.highlight {
+    background: #1a1f2f;
+    color: #d8dee9;
+  }
+
+  .highlight code {
+    background: transparent;
+    color: inherit;
+  }
+
+  /* inline code */
+  p code,
+  li code,
+  td code {
+    background: #202633;
+    color: #e5e9f0;
+  }
+  /* code block base */
+  .highlighter-rouge,
+  .highlight,
+  .highlight pre,
+  pre.highlight {
+    background: #1a1f29;
+    color: #d8dee9;
+  }
+
+  .highlight code {
+    background: transparent;
+    color: inherit;
+  }
+
+  /* Rouge token colors */
+
+  /* comments */
+  .highlight .c,
+  .highlight .cm,
+  .highlight .cp,
+  .highlight .c1,
+  .highlight .cs {
+    color: #7a8495;
+    font-style: italic;
+  }
+
+  /* keywords: def, class, if, for, import, pub, fn, let, etc. */
+  .highlight .k,
+  .highlight .kc,
+  .highlight .kd,
+  .highlight .kn,
+  .highlight .kp,
+  .highlight .kr,
+  .highlight .kt {
+    color: #81a1c1;
+    font-weight: 600;
+  }
+
+  /* strings */
+  .highlight .s,
+  .highlight .sa,
+  .highlight .sb,
+  .highlight .sc,
+  .highlight .dl,
+  .highlight .sd,
+  .highlight .s2,
+  .highlight .se,
+  .highlight .sh,
+  .highlight .si,
+  .highlight .sx,
+  .highlight .sr,
+  .highlight .s1,
+  .highlight .ss {
+    color: #a3be8c;
+  }
+
+  /* numbers */
+  .highlight .m,
+  .highlight .mb,
+  .highlight .mf,
+  .highlight .mh,
+  .highlight .mi,
+  .highlight .il,
+  .highlight .mo {
+    color: #b48ead;
+  }
+
+  /* function names */
+  .highlight .nf,
+  .highlight .fm {
+    color: #88c0d0;
+  }
+
+  /* class/type names */
+  .highlight .nc,
+  .highlight .nn,
+  .highlight .nt,
+  .highlight .vc,
+  .highlight .vg,
+  .highlight .vi {
+    color: #ebcb8b;
+  }
+
+  /* variables / names */
+  .highlight .n,
+  .highlight .na,
+  .highlight .nb,
+  .highlight .no,
+  .highlight .nd,
+  .highlight .ni,
+  .highlight .ne,
+  .highlight .nl,
+  .highlight .nx,
+  .highlight .py,
+  .highlight .nv,
+  .highlight .bp {
+    color: #d8dee9;
+  }
+
+  /* operators / punctuation */
+  .highlight .o,
+  .highlight .ow,
+  .highlight .p {
+    color: #eceff4;
+  }
+
+  /* errors */
+  .highlight .err {
+    color: #bf616a;
+    background: transparent;
+  }
+
+  /* generic inserted/deleted/output */
+  .highlight .gi {
+    color: #a3be8c;
+  }
+
+  .highlight .gd {
+    color: #bf616a;
+  }
+
+  .highlight .go,
+  .highlight .gp {
+    color: #9aa4b2;
+  }
+  .highlighter-rouge,
+  .highlight,
+  .highlight pre,
+  pre.highlight {
+    background: #1a1f29;
+  }
+
+  .highlight {
+    border: 1px solid #1f2530; // 背景より少しだけ明るい程度
+    box-shadow: none;
+  }
+
+  .highlight pre,
+  pre.highlight {
+    border: none;
+    box-shadow: none;
+  }
+
+  .highlight code {
+    border: none;
+    box-shadow: none;
+    background: transparent;
+  }
 }
