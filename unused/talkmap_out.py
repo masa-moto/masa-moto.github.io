@@ -12,25 +12,41 @@
 #     name: python3
 # ---
 
-# %%
-# Leaflet cluster map of talk locations
+# %% [markdown]
+# # Leaflet cluster map of talk locations
 #
-# Run this from the _talks/ directory, which contains .md files of all your
-# talks. This scrapes the location YAML field from each .md file, geolocates it
-# with geopy/Nominatim, and uses the getorg library to output data, HTML, and
-# Javascript for a standalone cluster map. This is functionally the same as the
-# #talkmap Jupyter notebook.
+# Assuming you are working in a Linux or Windows Subsystem for Linux environment, you may need to install some dependencies. Assuming a clean installation, the following will be needed:
+#
+# ```bash
+# sudo apt install jupyter
+# sudo apt install python3-pip
+# pip install python-frontmatter getorg --upgrade
+# ```
+#
+# After which you can run this from the `_talks/` directory, via:
+#
+# ```bash
+#  jupyter nbconvert --to notebook --execute talkmap.ipynb --output talkmap_out.ipynb
+# ```
+#  
+# The `_talks/` directory contains `.md` files of all your talks. This scrapes the location YAML field from each `.md` file, geolocates it with `geopy/Nominatim`, and uses the `getorg` library to output data, HTML, and Javascript for a standalone cluster map.
+
+# %%
+# Start by installing the dependencies
+# !pip install python-frontmatter getorg --upgrade
 import frontmatter
 import glob
 import getorg
 from geopy import Nominatim
 from geopy.exc import GeocoderTimedOut
 
-# Set the default timeout, in seconds
-TIMEOUT = 5
-
+# %%
 # Collect the Markdown files
 g = glob.glob("_talks/*.md")
+
+# %%
+# Set the default timeout, in seconds
+TIMEOUT = 5
 
 # Prepare to geolocate
 geocoder = Nominatim(user_agent="academicpages.github.io")
@@ -39,6 +55,10 @@ location = ""
 permalink = ""
 title = ""
 
+# %% [markdown]
+# In the event that this times out with an error, double check to make sure that the location is can be properly geolocated.
+
+# %%
 # Perform geolocation
 for file in g:
     # Read the file
@@ -66,6 +86,9 @@ for file in g:
     except Exception as ex:
         print(f"An unhandled exception occurred while processing input {location} with message {ex}")
 
+# %%
 # Save the map
 m = getorg.orgmap.create_map_obj()
 getorg.orgmap.output_html_cluster_map(location_dict, folder_name="talkmap", hashed_usernames=False)
+
+# %%
