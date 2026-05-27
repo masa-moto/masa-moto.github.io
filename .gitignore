@@ -24,3 +24,6 @@ package-lock.json
 
 # Ignore files related to ruby
 HOME/
+
+# Ignore files related to python venv 
+.*env/
