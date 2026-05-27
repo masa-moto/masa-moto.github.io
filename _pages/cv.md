@@ -22,11 +22,14 @@ Education
   
 Skills
 ======
-* Programming
+* Programming 
   * complex network analysis (multifractal, motif-decomposition, graph zeta)
+  * numerical analysis (dynamical system)
 * Language
   * Japanese (native)
   * English (TOEIC L&R 885)
+  * Rust (Beginner)
+  * Python (Intermediate)
 
 
 <!-- Publications
@@ -41,16 +44,18 @@ Skills
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul> -->
 
-Posters
+<!-- Posters
 =====
   <ul>{% for post in site.posters reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
 
   
 Service and leadership
 ======
+
 * [第22回 数学総合若手研究集会](https://www.math.sci.hokudai.ac.jp/~wakate/mcyr/2026/ja/index.html) 世話人
-* ティーチングアシスタント(TA)
+* [第23回 数学総合若手研究集会](https://www.math.sci.hokudai.ac.jp/~wakate/mcyr/2027/ja/index.html) 世話人
+* ティーチングアシスタントなど(TA, TF)
   * 北海道大学全学教育部開講科目 「情報学I」「情報学II」「人間と文化」
   * 同大学理学部開講科目 「コンピュータ」
