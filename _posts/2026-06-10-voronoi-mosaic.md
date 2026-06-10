@@ -52,7 +52,7 @@ scipy 1.17.1
 
 以下で画像を変換する。
 ```python 
-pthon3 main.py input.png 2 output.png --max-seeds 500 --gif 
+python3 main.py input.png 2 output.png --max-seeds 500 --gif 
 ```
 
 ![変換前画像]({{ "/assets/images/2606/test01.png" | relative_url }})
