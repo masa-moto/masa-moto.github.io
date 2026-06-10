@@ -67,7 +67,7 @@ pthon3 main.py input.png 2 output.png --max-seeds 500 --gif
 思ったよりも境界部がギザギザになっているようだった。
 
 母点の追加により大域的に領域が更新されている様子が見え、領域分割が木構造じゃないということが分かる。
-![変換過程]({{ "/assets/images/2026/output.fig" | relative_url }})
+![変換過程]({{ "/assets/images/2026/output.gif" | relative_url }})
 
 # 今後やること
 
