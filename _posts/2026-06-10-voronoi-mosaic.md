@@ -57,10 +57,10 @@ python3 main.py input.png 2 output.png --max-seeds 500 --gif
 
 ![変換前画像]({{ "/assets/images/2606/test01.png" | relative_url }})
 
+母点数上限500くらいで変換を行うと下の画像のようになる。
 
 ![変換後画像]({{ "/assets/images/2606/output01.png" | relative_url }})
 
-母点数上限500くらいで変換を行うと以下の画像のようになる。
 
 のぺっとした領域は変換後も大きな領域のままで、逆に白と青の境界とかは細かい領域に分割されているのが分かる。
 
