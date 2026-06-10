@@ -25,7 +25,7 @@ tqdm
 scipy
 ```
 
-!(Githubにレポジトリ)[https://github.com/masa-moto/voronoi_mosaic]を用意しているので、詳しいコードはそちらから動かす方が早そう。
+![Githubにレポジトリ](https://github.com/masa-moto/voronoi_mosaic)を用意しているので、詳しいコードはそちらから動かす方が早そう。
 
 クローンして、上記ライブラリを含む実行環境と入力画像を用意したら動くはず。
 
@@ -45,8 +45,8 @@ scipy
 
 # 具体例
 
-![(変換前画像)[https://pixabay.com/ja/photos/%E9%B4%8E-%E9%B3%A5-%E5%8B%95%E7%89%A9-%E3%82%AB%E3%83%A2%E3%83%A1-%E6%B5%B7%E9%B3%A5-517091/]](figs/2606/test01.png)
-
-![変換後画像](figs/2606/output01.png)
+![変換前画像](figs/2606/test01.png)
+変換前の画像：[Pixabay](https://pixabay.com/ja/photos/%E9%B4%8E-%E9%B3%A5-%E5%8B%95%E7%89%A9-%E3%82%AB%E3%83%A2%E3%83%A1-%E6%B5%B7%E9%B3%A5-517091/)
+![変換後画像](./figs/2606/output01.png)
 
 思ったよりも境界部がギザギザになっているようだった。
