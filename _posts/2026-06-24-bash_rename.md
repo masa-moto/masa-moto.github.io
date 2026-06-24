@@ -4,6 +4,7 @@ date: 2026-06-24
 permalink: /posts/2026/06/bash_rename/
 tags:
   - bash
+  - re
 description: "bash上でパターンマッチして文字列を取得する"
 ---
 
