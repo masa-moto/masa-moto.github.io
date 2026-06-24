@@ -1,6 +1,6 @@
 ---
 title: 'bashで条件一致した文字列を処理する'
-date: 2026-06-02
+date: 2026-06-24
 permalink: /posts/2026/06/bash_rename/
 tags:
   - bash
@@ -12,8 +12,8 @@ description: "bash上でパターンマッチして文字列を取得する"
 
 [以前のpost](/posts/2026/06/bash/)でbashでfor文を回す方法について書いていたが、それから派生して文字列取得していろいろ処理をしたかった。
 
-特に、あるディレクトリの ` prefix_DATA??_suffix.ext `のような名前表現のファイルを取得して、
-対応する` /DATA??/prefix_DATA??_suffix.ext `に移動するなどを実現したかった。
+特に、あるディレクトリの `prefix_DATA??_suffix.ext` のような名前表現のファイルを取得して、
+対応する `/DATA??/prefix_DATA??_suffix.ext` に移動するなどを実現したかった。
 
 
 # 設定等
@@ -62,6 +62,8 @@ for f in main_dir/prefix_*_suffix*.h5; do
 done
 ```
 のようになる。
+
+正規表現を使う場合について、少し丁寧に説明する。
 
 ## if~fiの中身について
 ```
@@ -121,4 +123,4 @@ BASH_REMATCH[k] : k個目の（...）グループに一致した部分
 これくらいのパターンだったら正規表現を使う必要はあんまりないかもしれません。
 
 # リンクなど
-正規表現についてわかりやすくまとめられていたサイト [サルにもわかる正規表現入門](https://userweb.mnet.ne.jp/nakama/)
+正規表現についてわかりやすくまとめられていたサイト： [サルにもわかる正規表現入門](https://userweb.mnet.ne.jp/nakama/)
