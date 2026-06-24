@@ -1,7 +1,7 @@
 --- 
 title: 'Matplotlibで日本語フォントを使う'
 date: 2025-12-15
-permalink: /posts/2025/12/blog-post-6/
+permalink: /posts/2025/12/matplotlib_fontja/
 tags:
   - misc
   - python
