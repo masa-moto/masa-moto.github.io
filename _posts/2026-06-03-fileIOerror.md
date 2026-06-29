@@ -192,3 +192,10 @@ kill -TERM <PID>
 ```
 lsof /path/to/problem.h5
 ```
+
+# リンクなど
+- [IBMのドキュメント](https://www.ibm.com/docs/ja/aix/7.2.0?topic=management-process-termination)
+- [Zennで見つけたSIGINT/SIGTERM/SIGKILLについての記事](
+https://zenn.dev/waffledog/scraps/30107eecdfb90b)
+- [Wikipedia/シグナル(Unix)](https://ja.wikipedia.org/wiki/
+シグナル_(Unix)#個々のシグナル)
